@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index page</title>
+</head>
+<body>
+  <img src="{{url_for('static', filename='images/jenkins-x-logo.png')}}" align="right"/>
+  <h1>First deployment to Google Kubernetes engine</h1>
+  <img src="{{url_for('static', filename='images/googleGKE.png')}}" align="right"/>
+  The hostname of the container is <b>{{ hostname }}</b> and its IP is <b>{{ ip }}</b>.
+  <h2> CI/CD rules the net!</h2>
+</body>
+</html>
